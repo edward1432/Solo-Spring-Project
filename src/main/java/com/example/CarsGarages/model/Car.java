@@ -17,7 +17,7 @@ public class Car {
     private String owner;
 
     @ManyToOne
-    @JoinColumn(name = "garage_id", nullable = false)
+    @JoinColumn(name = "garage_id")
     private Garage garage;
 
     public Car(){
